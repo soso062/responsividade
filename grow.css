@@ -1,0 +1,24 @@
+.item1 {
+   background-color: rgb(42, 161, 165);
+   flex-grow: 1;
+}
+.item2 {
+    background-color: rgb(226, 52, 52); 
+    flex-grow: 2;
+}
+.item3 {
+   background-color: rgb(13, 97, 175);;
+   flex-grow: 1;
+}
+.item4 {
+    background-color: rgb(22, 129, 230);
+ }
+.container {
+    width: 100%;
+    display: flex;
+    border: 1px solid #ccc;
+}
+.box {
+    width: 150px;
+    height: 150px;
+}

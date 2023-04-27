@@ -1,0 +1,39 @@
+.item1 {
+    background-color: rgb(38, 212, 218);
+    flex-grow: 1;
+    flex-basis: 400px;
+    flex-shrink: 1;
+ }
+ .item2 {
+     background-color: rgb(52, 226, 197); 
+     flex-grow: 2;
+     width: 400px;
+     flex-basis: 400px;
+     flex-shrink: 3;
+ }
+ .item3 {
+    background-color: rgb(13, 97, 175);;
+    flex-grow: 1;
+    flex-basis: 400px;
+    flex-shrink: 1;
+    flex: 1 1 400px;
+ }
+ .item4 {
+     background-color: rgb(22, 129, 230);
+     flex-grow: 1;
+  }
+ .container {
+     display: flex;
+     width: 100%;
+     border: 1px solid #ccc;
+     flex: row wrap;
+     margin: 0 auto;
+ }
+ .box {
+     width: 150px;
+     height: 150px;
+ }
+ 
+ 
+
+ 
